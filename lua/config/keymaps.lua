@@ -15,7 +15,7 @@ end
 
 vim.g.mapleader = " "
 
-nmap("d", '"_d')
+-- nmap("d", '"_d')
 -- nmap('p', '"0p')
 nmap("-", "<C-x>")
 nmap("+", "<C-a>")
