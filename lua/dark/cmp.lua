@@ -67,11 +67,11 @@ return {
         }),
         -- sources for autocompletion
         sources = cmp.config.sources({
-          { name = "codeium", group_index = 1, priority = 100 }, -- Copilot suggestions
-          { name = "nvim_lsp" }, -- lsp
-          { name = "buffer", max_item_count = 5 }, -- text within current buffer
-          { name = "path", max_item_count = 3 }, -- file system paths
           { name = "luasnip", max_item_count = 3 }, -- snippets
+          { name = "nvim_lsp" }, -- lsp
+          { name = "path", max_item_count = 3 }, -- file system paths
+          { name = "buffer", max_item_count = 5 }, -- text within current buffer
+          { name = "codeium", group_index = 1, priority = 100 }, -- Copilot suggestions
         }),
         sorting = {
           comparators = {},
